@@ -1,0 +1,75 @@
+<div class="displayBox">
+	<span class="dateTitre">
+	[{DATE_TITRE}]
+	</span>
+	<span class="dateValeur">
+	{DATE_VALUE}
+	</span>	
+	
+	<span class="typeTitre">
+	[{TYPE_TITRE}]
+	</span>
+	<span class="typeValeur">
+	{TYPE_VALUE}
+	</span>		
+	
+	<span class="msgTitre">
+	[{MSG_TITRE}]
+	</span>
+	<span class="msgValeur">
+	{MSG_VALUE}
+	</span>	
+	
+	<span class="fileTitre">
+	[{FILE_TITRE}]
+	</span>
+	<span class="fileValeur">
+	{FILE_VALUE}
+	</span>	
+	
+	<span class="lineTitre">
+	[{LINE_TITRE}]
+	</span>
+	<span class="lineValeur">
+	{LINE_VALUE}
+	</span>	
+	<span class="memTitre">
+	[{MEM_TITRE}]
+	</span>
+	<span class="memValeur">
+	{MEM_VALUE}
+	</span>	
+	<br />
+	<span class="transTitre">
+	[{TRANS_TITRE}]
+	</span>
+	<span class="transValeur">
+	{TRANS_VALUE}
+	</span>	
+	
+	<br />
+	<span class="suggTitre">
+	[{SUGG_TITRE}]
+	</span>
+	<span class="suggValeur">
+	{SUGG_VALUE}
+	</span>	
+	
+	<br />
+	<span class="contextTitre" onclick="document.getElementById('context_{ID}').style.display=(document.getElementById('context_{ID}').style.display == 'block')?'none':'block';">
+	SHOW {CONTEXT_TITRE}
+	</span>
+	<span class="contextValeur" id="context_{ID}">
+	{CONTEXT_VALUE}
+	</span>	
+	
+	<br />
+	<span class="sourceTitre" onclick="document.getElementById('source_{ID}').style.display=(document.getElementById('source_{ID}').style.display == 'block')?'none':'block';">
+	SHOW {SOURCE_TITRE}
+	</span>
+	<br />
+	<span class="sourceValeur" id="source_{ID}">
+	{SOURCE_VALUE}
+	</span>			
+</div>
+<br />

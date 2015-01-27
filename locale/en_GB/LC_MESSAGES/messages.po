@@ -1,0 +1,195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Säästönorsu V1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-10 16:18+0200\n"
+"PO-Revision-Date: 2013-01-10 16:18+0200\n"
+"Last-Translator: Janne Hyytiä <janne.hyytia@saunalahti.fi>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ~/NetBeansProjects/Säästönorsu\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/warranties.php:11
+msgid "short month tag"
+msgstr "m"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/warranties.php:15
+msgid "short year tag"
+msgstr "y"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:46
+msgid "New receipt"
+msgstr "New receipt"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:52
+msgid "Mandatory"
+msgstr "Mandatory"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:57
+msgid "Total cost"
+msgstr "Total cost"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:65
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:224
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:323
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:403
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:416
+msgid "Main category"
+msgstr "Main category"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:69
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:109
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:327
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:346
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:407
+msgid "No categories created"
+msgstr "No categories created"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:76
+msgid "Date"
+msgstr "Date"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:84
+msgid "Extra options"
+msgstr "Extra options"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:92
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:233
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:417
+msgid "Sub category"
+msgstr "Sub category"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:96
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:336
+msgid "Select main category"
+msgstr "Select main category"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:105
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:342
+msgid "Extra category"
+msgstr "Extra category"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:108
+msgid "No categories"
+msgstr "No categories created"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:116
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:437
+msgid "Place"
+msgstr "Place"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:119
+msgid "Write"
+msgstr "Write"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:120
+msgid "Or choose"
+msgstr "Choose"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:128
+msgid "Payment method"
+msgstr "Payment method"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:131
+msgid "Not chosen"
+msgstr "Not chosen"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:132
+msgid "no payment methods found"
+msgstr "Payment method"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:137
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:269
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:367
+msgid "Extra information"
+msgstr "Extra information"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:144
+msgid "Add procucts"
+msgstr "Adding a product"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:152
+msgid "Save receipt"
+msgstr "Save receipt"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:206
+msgid "Product"
+msgstr "Product"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:215
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:315
+msgid "Price"
+msgstr "Price"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:242
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:418
+msgid "Extra categories"
+msgstr "Extra categories"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:251
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:351
+msgid "Warranty"
+msgstr "Warranty"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:260
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:359
+msgid "VAT"
+msgstr "VAT"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:278
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:375
+msgid "Add to list"
+msgstr "Add to list"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:295
+msgid "Adding a product"
+msgstr "Adding a product"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:299
+msgid "Premade product-list"
+msgstr "Premade product-list"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:309
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:395
+msgid "Name"
+msgstr "Name"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:332
+msgid "Choose:"
+msgstr "Choose:"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:390
+msgid "Adding category"
+msgstr "Adding category"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:412
+msgid "Type"
+msgstr "Type"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:425
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:446
+msgid "Cancel"
+msgstr "Cancel"
+
+#: NetBeansProjects/ariadne/ariadne/lib/ar/core/ariadne.php:103
+msgid "accessdenied"
+msgstr "access denied"
+
+#: NetBeansProjects/ariadne/ariadne/lib/ar/core/ariadne.php:109
+msgid "sessiontimeout"
+msgstr "session timeout"
+
+#: NetBeansProjects/ariadne/ariadne/lib/ar/core/ariadne.php:115
+msgid "sessionpasswordexpired"
+msgstr "session password expired"
+
+#~ msgid "Main category:"
+#~ msgstr "Adding category:"

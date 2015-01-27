@@ -1,0 +1,463 @@
+body {
+    background-color:#F9F9FF;
+    color:#000000;
+    font:normal 100% Arial, Helvetica, Verdana;
+    margin: auto;
+    margin-bottom:0px;;
+    width: 700px;
+    text-align:center; /* for old like IE5-versions, that work better by centering the body, with this setting */
+}
+
+/* ---------DIVs--------- */
+div {
+    position: relative;
+    overflow:hidden;
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+    overflow:visible;
+}
+
+/* TOPMENU */
+div.top {
+    width: 700px;
+    vertical-align: top;
+    background-image: url('../images/bannerBG.png');
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top: 0px;
+    height:130px;
+}
+div.top #header{
+    position: absolute;
+    overflow:visible;
+    border:0;
+}
+div.top #header img{
+    left:0px;
+    top:0px;
+    position: absolute;
+    overflow:visible;
+    border:0;
+}
+div.top #topmenu {
+    border-top: 0;
+    float:left;
+    clear:left;
+    left: 180px;
+    top: 50px;
+    vertical-align: bottom;
+}
+div.top #topmenu a {
+    text-decoration:none;
+}
+div.top #topmenu a:active {
+    font-weight:bold;
+}
+
+div.top #headerLoggedin {
+    right:1px;
+    width: 700px;
+    text-align: right;
+    overflow:hidden;
+}
+
+/* -------------- */
+
+div.content {
+    top: -1px;
+    vertical-align: top;
+    border:0px;;
+    padding:0;
+    height:100%;
+    margin: 0 0 0 0;
+}
+div.content#settings {
+    text-align: left;
+}
+div#footer {
+    background-color:#E4E4FF;
+    border:1px solid #E0E0FF;
+    border-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+/* DIVs inside Content */
+/* mainView */
+div.topicBlockContainer {
+    margin-bottom: 20px;
+    padding:5px;
+    width: auto;
+    display: none;
+    background-color: #EEEEFF;
+}
+div.topicBlocks {
+    margin-bottom: 20px;
+    display:inline;
+    padding:0px;
+    float:left;
+    width: 150px;
+}
+div.topicBlocksHeaders {
+    margin-bottom: 20px;
+    margin-top: 58px;
+    display:inline;
+    padding:0px;
+    float:left;
+    width: 70px;
+    overflow:visible;
+}
+div.topicBlocksFull {
+    width: 100%;
+}
+
+div.eventBlocks {
+    margin: 0;
+    padding:0px;
+    width: 100%;
+    height: auto;
+    text-align:left;
+}
+span.rightSide {
+    position:absolute;
+    left:140px;
+}
+div.eventBlocks p {
+    padding:2px;
+    margin:0px;
+}
+div.loginContainer {
+    background-color:#DDDDFF;
+    width:400px;
+    margin:auto;
+    text-align:center;
+}
+div.loginContainer input {
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+div.loginContainer span {
+    text-align:center;
+}
+div.chartContainer {
+    display:block;
+    border: 0px;
+    width:660px;
+    height:300px;
+    margin:auto;
+    background-color:#F0F0FF;
+}
+div.chartPylon {
+    position:absolute;
+    bottom:0px;
+    height:60px;
+    width:20px;
+    background-color:#555599;
+}
+div.dates {
+    padding: 0px;
+    margin:0px;
+}
+
+div#blueBlocks {
+    background-color: #E9E9FF;
+    margin-top:20px;
+}
+div.login {
+    text-align: right;
+    width: 400px;
+    vertical-align: middle;
+    margin: auto;
+}
+div.login input {
+    left: 80px;
+}
+
+.columnBase {
+    width:656px;
+    text-align: left;
+    overflow: visible;
+    clear:left;
+}
+.BlockUIcolumnBase {
+    width:100%;
+    text-align: left;
+}
+.columnMain {
+    margin:12px 22px 16px 22px;
+}
+td.columnFirstChild {
+    width: 200px;
+    left:0px;
+    overflow:visible;
+}
+td.columnSecondChild {
+    max-width: 49%;
+    min-height: 50px;
+    overflow:visible;
+}
+div.columnFirstChild {
+    width: 200px;
+    left:0px;
+    float:left;
+    clear:left;
+    overflow:visible;
+}
+div.columnSecondChild {
+    max-width: 49%;
+    min-height: 30px;
+    float:left;
+    clear: none;
+    overflow:visible;
+}
+div.columnColorHeader {
+    width:670px;
+    margin: 8px !important;
+    background-color: #E0E0FF;
+    font-weight: bold;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:12px;
+    border: #E0E0FF 1px solid;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border: 1px solid #9090D5;
+    border-radius: 16px;
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+div.columnColorHeaderSub {
+    width:670px;
+    margin: 8px !important;
+}
+
+div.hidden {
+    display: none;	
+}
+div#messages {
+    display: none;	
+}
+div#productsDiv {
+    display: none;
+}
+/* --------Texts--------- */
+
+a:link, :visited, :active, :hover {
+    text-decoration:none;
+}
+
+/* Pagination classes: */
+a.prev, a.next {
+    
+}
+a.active {
+    color: #880000;
+    font-weight: bold;
+}
+a.more {
+    
+}
+
+label {
+    font-weight:bold;
+    vertical-align: top;
+}
+#centered {
+    text-align: center;
+}
+h1 {
+    word-spacing: 4em;
+    font: 16px arial, helvetica, Verdana;
+    font-weight: bold;
+}
+h2 {
+    clear: both;
+    padding:5px;
+    line-height: 0px;
+    font: 20px arial, helvetica, Verdana;
+}
+h3, h2, h1, :link, :visited, :active {
+    color:#000000;
+}
+h4 {
+    text-align:left;
+}
+.headerLinks {
+    width:140px;
+    float:left;
+    margin-left:92px;
+    margin-right:92px;
+    padding:10px;
+    font: 18px arial, helvetica, Verdana;
+    border: #555599 1px dashed;
+    border-top-width: 0px;
+    background-color: #EAEAFF;
+    cursor: pointer;
+}
+.mainCat {
+    color:#660000;
+}
+.extraCat {
+    color:#555500;
+}
+a.details {
+    display:block;
+    color:#880000;
+}
+a.selectedDetails {
+    display:block;
+    color:#DD4444;
+    padding-bottom:6px;
+}
+
+/* -------- Other styling --------- */
+
+.firstRow {
+    background-color:#F4F4F4;
+}
+.secondRow {
+    background-color:#FFFFFF;
+}
+input.eventList {
+    width:100px;
+}
+.underSection1 {
+    left:80px;
+    position:absolute;
+    font-weight:normal;
+}
+.underSection2 {
+    left:200px;
+    position:absolute;
+    font-weight:normal;
+}
+.dateSpecial {
+    left:158px;
+    position:relative;
+    font-weight:normal;
+}
+
+span.link {
+    cursor: pointer
+}
+div.noteText#showAlways {
+    width: 100%;
+    text-align: right;
+    clear:left;
+    font-size: 80%;
+    font-weight: normal;
+    cursor: pointer
+}
+div#addingProduct {
+    width:500px;
+    height:560px;
+}
+div#addCat {
+    width:500px;
+    height:100%;
+}
+div#addPlace {
+    width:500px;
+    height:100%;
+}
+div#blockUITop {
+    background-color:#EAEAFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Input styling: */
+input, textarea, select {
+    background-color: #E9E9FF;
+    border-radius: 3px;
+    border: 1px solid #9090D5;
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    padding: 2px;
+    margin: 0 0 10px 0;
+}
+input#place {
+    width:120px;
+}
+textarea {
+    width:228px;
+    height: 70px;
+}
+textarea:hover, input:hover, select:hover {
+    border: 1px solid #0000FF;
+}
+textarea:focus, input:focus, select:focus {
+    background-color: #FFFFFF;
+    border: 1px solid #0000FF;
+}
+
+button, input[type=submit] {
+    background-color: #E9E9FF;
+    border-radius: 3px;
+    border: 1px solid #9090D5;
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    padding: 2px;
+    margin: 0 0 10px 0;
+}
+button:hover, input[type=submit]:hover {
+    background-color: #D0D0FF;
+    color:#000055;
+}
+
+.blockUILayout {
+    border: 0px;
+    box-shadow: 6px 6px 14px #D4D5F0;
+    -webkit-box-shadow: 6px 6px 14px #D4D5F0;
+    -moz-box-shadow: 6px 6px 14px #D4D5F0;
+    width: 500px;
+    height: 620px;
+    background-color: #000000;
+    margin:auto;
+    overflow:visible;
+}
+
+img.modify {
+    /* Modify-icon in Creative Commons Attribution-licensing by: http://momentumdesignlab.com/ */
+    width:16px;
+    height:16px;
+    position: relative;
+    top:3px;
+    margin-left:4px;
+    vertical-align: top;
+}
+
+.hidden {
+    display:none;
+}
+
+div.baseOverlayDiv {
+    cursor: default;
+    position:relative;
+    line-height: 24px;
+    text-decoration: none;
+    border: 1px solid #999;
+    margin:12px 22px 16px 22px;
+    padding:8px;
+    background-color: #F6F6FF;
+    overflow:visible;
+}
+
+#addProductBtn {
+    background-color: #E0E0CF;
+}
+div#addProductBtnDiv {
+    margin:25px;
+}
+
+table.receiptListing:nth-child(odd){
+    background-color: #E4E4FF;
+}

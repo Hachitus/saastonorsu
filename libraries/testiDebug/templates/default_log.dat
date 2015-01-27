@@ -1,0 +1,36 @@
+<table class="logFile">
+	<tr>
+		<th>DATE</th>
+		<th>TYPE</th>
+		<th>MESSAGE</th>
+		<th>FILE</th>
+		<th>LINE</th>
+		<th>MEMORY</th>
+		<th>TRANSLATION</th>
+		<th>SUGGESTION</th>
+		<th>CONTEXT</th>
+		<th>SOURCE</th>
+	</tr>
+<!-- LINES HERE -->
+	<tr>
+		<td>{DATE_VALUE}</td>
+		<td>{TYPE_VALUE}</td>
+		<td>{MSG_VALUE}</td>
+		<td>{FILE_VALUE}</td>
+		<td>{LINE_VALUE}</td>
+		<td>{MEM_VALUE}</td>
+		<td>{TRANS_VALUE}</td>
+		<td>{SUGG_VALUE}</td>
+		<td>{CONTEXT_VALUE}</td>
+		<td>{SOURCE_VALUE}</td>
+	</tr>
+<!-- STATS -->
+	<tr>
+		<td class="statsTitle">STATS</td>
+		<td class="statsValue" colspan="9">{TOTAL_STATS}</td>
+	</tr>
+	<tr>
+		<td class="statsTitle">PHP VERSION</td>
+		<td class="statsValue" colspan="9">{PHP_VERSION}</td>
+	</tr>
+</table>

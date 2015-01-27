@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<errors>
+	<error>
+		<label>Undefined index:</label>
+		<translation>Un index est utilisé alors qu'il n'a pas été défini</translation>
+		<suggestion>Vérifiez que vous ne dépassez pas les bornes inférieures et supérieurs de votre tableau</suggestion>
+	</error>
+	<error>
+		<label>Supplied argument is not a valid resource</label>
+		<translation>L'argument donné n'est pas une ressource valide dans ce contexte</translation>
+		<suggestion>Vérifiez que l'argument utilisé est bien une ressource valide (par exemple, en cas de requête mysql, vérifiez que mysql_query () renvoie bien une ressource, et pas false</suggestion>
+	</error>
+	<error>
+		<label>Undefined offset:</label>
+		<translation>L'offset utilisé n'est pas défini</translation>
+		<suggestion>Vérifiez que l'offset ne dépasse pas les bornes inférieures et supérieures de son élément (par exemple, si $sString = 'hello', echo $sString[8] est faux : 8 est au-delà de la taille de la chaîne 'hello' (5 caractères)</suggestion>
+	</error>
+	<error>
+		<label>Undefined variable:</label>
+		<translation>La variable est utilisée alors qu'elle n'a pas été définie</translation>
+		<suggestion>Définissez la variable avant de l'utiliser, ou vérifiez son existence avec if (isset ($variable))</suggestion>
+	</error>
+	<error>
+		<label>Cannot send session cache limiter - headers already sent</label>
+		<translation>Des en-têtes http ont déjà été envoyé au navigateur, on ne peut plus en envoyer</translation>
+		<suggestion>Les fonctions envoyant des en-têtes (header(), session_start()...) ne peuvent pas être utilisées après une quelconque sortie HTML, à moins d'utiliser ob_start ()</suggestion>
+	</error>
+	<error>
+		<label>failed to open stream</label>
+		<translation>Echec d'ouverture du flux</translation>
+		<suggestion>Le flux n'a pas pu être ouvert : vérifiez que le flux existe bien, ou que vous avez les droits nécessaires pour le faire (flux : fichiers, etc...)</suggestion>
+	</error>
+	<error>
+		<label>Call to a member function on a non-object</label>
+		<translation>Appel d'une méthode sur quelque chose qui n'est pas un objet</translation>
+		<suggestion>Vérifiez que vous travaillez bien sur un objet. Ici : $oObj -> method (); cette erreur signifie que $oObj n'est pas un objet</suggestion>
+	</error>
+	<error>
+		<label>Invalid argument supplied for foreach()</label>
+		<translation>L'argument utilisé dans la boucle foreach () n'est pas un argument valide</translation>
+		<suggestion>Dans foreach ($aArg as $clef => $valeur), cette erreur signifie que $aArg n'est ni un tableau, ni un objet, ou tout autre type utilisable dans un foreach ()</suggestion>
+	</error>
+	<error>
+		<label>Use of undefined constant - assumed</label>
+		<translation>Utilisation d'une constante indéfinie</translation>
+		<suggestion>La constante utilisée n'a pas été définie (via define ()), ou vous utilisez une variable sans $ devant : echo var;, ou un index associatif dans un tableau non délimité par des apostrophes: echo $aTab[nom]</suggestion>
+	</error>
+	<error>
+		<label>Division by zero</label>
+		<translation>Le script tente de faire une division par 0</translation>
+		<suggestion>Vérifiez les variables de votre script.</suggestion>
+	</error>
+	<error>
+		<label>MySQL: A link to the server could not be established</label>
+		<translation>La connexion avec le serveur mysql n'a pas pu être établie</translation>
+		<suggestion>Vérifiez vos paramètres de connexion mysql</suggestion>
+	</error>
+	<error>
+		<label>unexpected error</label>
+		<translation>Erreur imprévue</translation>
+		<suggestion>Cherchez...!</suggestion>
+	</error>
+	<error>
+		<label>Failed opening required (include_path=)</label>
+		<translation>Echec d'inclusion du fichier</translation>
+		<suggestion>Le chemin n'est sans doute pas bon, vérifiez.</suggestion>
+	</error>
+	<error>
+		<label>Out of range year.</label>
+		<translation>Vous êtes sorti des bornes de l'année</translation>
+		<suggestion>Vérifiez la date, elle est fausse</suggestion>
+	</error>
+	<error>
+		<label>Unable to save result set</label>
+		<translation>Echec de la sauvegarde du résultat</translation>
+		<suggestion></suggestion>
+	</error>
+	<error>
+		<label>Illegal directory offset</label>
+		<translation>Offset illégal pour le répertoire</translation>
+		<suggestion>Vous accédez à une position qui n'existe sans doute pas pour ce répertoire</suggestion>
+	</error>
+	<error>
+		<label>Failed opening for inclusion (include_path=)</label>
+		<translation>Echec d'inclusion du fichier</translation>
+		<suggestion>Le chemin n'est sans doute pas bon, vérifiez.</suggestion>
+	</error>
+	<error>
+		<label>open(, O_RDWR) failed: ()</label>
+		<translation>Echec d'ouverture</translation>
+		<suggestion></suggestion>
+	</error>
+	<error>
+		<label>invalid calendar ID</label>
+		<translation>ID Calendrier invalide</translation>
+		<suggestion>Vous avez passé un mauvais argument, vérifiez cet ID</suggestion>
+	</error>
+	<error>
+		<label>Unable to call () - function does not exist</label>
+		<translation>Impossible d'appeler cette fonction, elle n'existe pas</translation>
+		<suggestion>Vous faîtes appel à une fonction qui n'existe pas. Vérifiez que sa définiton ets bien accessible, ou, en cas de fonction interne, que l'extension dont elle fait partie a bien été chargée</suggestion>
+	</error>
+	<error>
+		<label>length may not be negative</label>
+		<translation>Une longueur ne peut pas être négative</translation>
+		<suggestion>Vérifiez votre calcul de la longueur</suggestion>
+	</error>
+	<error>
+		<label>Bad field offset specified</label>
+		<translation>Mauvaise position de champ spécifiée</translation>
+		<suggestion>Vous tentez d'accéder à une position de champ n'existant pas.</suggestion>
+	</error>
+	<error>
+		<label>%s(): invalid calendar ID</label>
+		<translation>ID Calendrier invalide</translation>
+		<suggestion>Vous avez passé un mauvais argument, vérifiez cet ID</suggestion>
+	</error>
+	<error>
+		<label>Square root of negative number</label>
+		<translation>Racine carré d'un nombre négatif</translation>
+		<suggestion>Vous ne pouvez pas effecyuer le calcul de la racine carré d'un nombre négatif</suggestion>
+	</error>
+	<error>
+		<label>(): invalid calendar ID</label>
+		<translation>ID Calendrier invalide</translation>
+		<suggestion>Vous avez passé un mauvais argument, vérifiez cet ID</suggestion>
+	</error>
+	<error>
+		<label>Sybase: Bad row offset</label>
+		<translation>Mauvaise position de ligne</translation>
+		<suggestion>Vous tentez d'accéder à une position de ligne non existante, vérifiez vos bornes</suggestion>
+	</error>
+	<error>
+		<label>could not read valid bz2 data from stream</label>
+		<translation>Impossible de lire l'archive BZ2 à partir de ce flux</translation>
+		<suggestion>L'archive est corrompue, ou ce n'est pas une archive BZ2</suggestion>
+	</error>
+	<error>
+		<label>failed to open stream: No such file or directory</label>
+		<translation>Impossible d'ouvrir le flux : le fichier ou le répertoire n'existent pas</translation>
+		<suggestion>Vérifiez que le chemin est bon.</suggestion>
+	</error>
+	<error>
+		<label>Wrong parameter count for</label>
+		<translation>Le nombre de paramètres passés à la fonction n'est pas celui attendu par cette fonction</translation>
+		<suggestion>Vérifiez le nombre de paramètres passés à la fonction, il y en a trop ou pas assez.</suggestion>
+	</error>	
+</errors>

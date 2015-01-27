@@ -1,0 +1,392 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Säästönorsu V1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-25 17:27+0200\n"
+"PO-Revision-Date: 2013-03-25 17:35+0200\n"
+"Last-Translator: Janne Hyytiä <janne.hyytia@saunalahti.fi>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ~/NetBeansProjects/Säästönorsu\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:81
+msgid "no category"
+msgstr "Ei kategoriaa"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:82
+msgid "save receipt"
+msgstr "Tallenna kuitti"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:83
+msgid "cost"
+msgstr "hinta"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:84
+msgid "info"
+msgstr "Lisätietoa"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:85
+msgid "name"
+msgstr "nimi"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:86
+msgid "main category"
+msgstr "Pääkategoria"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:87
+msgid "sub category"
+msgstr "Alakategoria"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:88
+msgid "extra categories"
+msgstr "Lisäkategorioita"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:89
+msgid "warranty"
+msgstr "Takuu"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:90
+msgid "not chosen"
+msgstr "Ei valittuna"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:91
+msgid "cash"
+msgstr "käteinen"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:92
+msgid "credit card"
+msgstr "luottokortti"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:93
+msgid "bank card"
+msgstr "pankkikortti"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:94
+msgid "other"
+msgstr "muu"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:95
+msgid "no main in receipt"
+msgstr "Et syöttänyt pääkategoriaa kuittiin"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:96
+msgid "no cost in receipt"
+msgstr "ei hintaa kuitissa"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:97
+msgid "no date in receipt"
+msgstr "Et syöttänyt päivämäärää kuittiin"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:98
+msgid "show extra options"
+msgstr "Näytä lisävalinnat"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/javascriptLanguages.php:99
+msgid "dont show extra options"
+msgstr "Älä näytä lisävalintoja"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/warranties.php:31
+msgid "short month tag"
+msgstr "kk"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/classes/warranties.php:35
+msgid "short year tag"
+msgstr "v"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:32
+msgid "New receipt"
+msgstr "Uusi kuitti"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:32
+msgid "Old receipts"
+msgstr "Vanhat kuitit"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:41
+msgid "Mandatory"
+msgstr "Pakollinen"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:47
+msgid "Total cost"
+msgstr "Summa"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:50
+msgid "Date"
+msgstr "Päiväys"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:69
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:218
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:296
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:356
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:185
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:16
+msgid "Main category"
+msgstr "Pääkategoriaa"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:73
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:106
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:300
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:315
+msgid "No categories created"
+msgstr "Ei kategorioita luotuna"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:81
+msgid "Extra options"
+msgstr "Lisävalinnat"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:81
+msgid "push to open"
+msgstr "paina avataksesi"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:89
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:227
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:193
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:16
+msgid "Sub category"
+msgstr "Alakategoria"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:93
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:307
+msgid "Select main category"
+msgstr "Valitse pääkategoria"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:102
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:311
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:16
+msgid "Extra category"
+msgstr "Lisäkategoria"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:113
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:385
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:209
+msgid "Place"
+msgstr "Paikka"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:117
+msgid "Or choose"
+msgstr "Tai valitse"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:125
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:217
+msgid "Payment method"
+msgstr "Maksutapa"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:128
+msgid "Not chosen"
+msgstr "Ei valittuna"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:129
+msgid "no payment methods found"
+msgstr "Ei maksutapoja luotuna"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:134
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:263
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:330
+msgid "Extra information"
+msgstr "Lisätietoa"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:141
+msgid "Add procucts"
+msgstr "Lisää tuotteita"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:149
+msgid "Save receipt"
+msgstr "Tallenna kuitti"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:150
+msgid "Reset receipt"
+msgstr "Tyhjennä kuitti"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:200
+msgid "Product"
+msgstr "Tuote"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:209
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:290
+msgid "Price"
+msgstr "Hinta"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:236
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:201
+msgid "Extra categories"
+msgstr "Lisäkategorioita"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:245
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:318
+msgid "Warranty"
+msgstr "Takuu"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:254
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:324
+msgid "VAT"
+msgstr "ALV"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:280
+msgid "Adding a product"
+msgstr "Tuotteen lisäys"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:284
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:348
+msgid "Name"
+msgstr "Nimi"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:303
+msgid "Choose:"
+msgstr "Valitse:"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:343
+msgid "Adding category"
+msgstr "Kategorian lisäys"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:363
+msgid "Type"
+msgstr "Tyyppi"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:373
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:394
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:241
+msgid "Cancel"
+msgstr "Peru"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:403
+msgid "Receipt inserted succesfully"
+msgstr "kuitti lisätty onnistuneesti"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/mainview.php:408
+msgid "If you wish to insert a new receipt with the same main information, edit the details. For a totally new receipt, please 'reset receipt'"
+msgstr "a"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:127
+msgid "Modify receipt"
+msgstr "Muokkaa kuittia"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:163
+msgid "modifying a receipt"
+msgstr "kuitin muokkaus"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:169
+msgid "Time"
+msgstr "aika"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:177
+msgid "Receipt cost"
+msgstr "kuitin hinta"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:225
+msgid "Information"
+msgstr "Lisätietoa"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:233
+msgid "Products"
+msgstr "Tuotteet"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/receipts.php:240
+msgid "Modify"
+msgstr "muokkaa"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:14
+msgid "This week"
+msgstr "Tämä viikko"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:14
+msgid "This month"
+msgstr "Tämä kuukausi"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:14
+msgid "This year"
+msgstr "Tämä vuosi"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:15
+msgid "Pie"
+msgstr "Piirakkana"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:15
+msgid "Bar"
+msgstr "Laatikkona"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:15
+msgid "Line"
+msgstr "Viivoina"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:15
+msgid "Numbers"
+msgstr "Numeroina"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:67
+msgid "Preset time"
+msgstr "Valmiit ajat"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:102
+msgid "Input dates"
+msgstr "Syötä päivät"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:104
+msgid "Start date"
+msgstr "Aloituspäivä"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:123
+msgid "End date"
+msgstr "Lopetuspäivä"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:129
+msgid "Category listing"
+msgstr "Kategorialistaus"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:145
+msgid "Chart type"
+msgstr "Kaaviotyyppi"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:160
+msgid "Create chart"
+msgstr "Luo kaavio"
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:192
+msgid "Incorrect dates. Ending date must be after starting date"
+msgstr "Väärät ajankohdat syötetty. Aloitusajankohta pitää olla ennen lopetusajankohtaa."
+
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:230
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:235
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:241
+#: NetBeansProjects/SÃ¤Ã¤stÃ¶norsu/sivut/charts.php:247
+msgid "Expenses"
+msgstr "Kulut"
+
+#: NetBeansProjects/ariadne/ariadne/lib/ar/core/ariadne.php:103
+msgid "accessdenied"
+msgstr "Pääsy kielletty"
+
+#: NetBeansProjects/ariadne/ariadne/lib/ar/core/ariadne.php:109
+msgid "sessiontimeout"
+msgstr "Istunto vanhentunut"
+
+#: NetBeansProjects/ariadne/ariadne/lib/ar/core/ariadne.php:115
+msgid "sessionpasswordexpired"
+msgstr "Istunnon salasana vanhentunut"
+
+#~ msgid "No categories"
+#~ msgstr "Ei kategorioita"
+
+#~ msgid "Write"
+#~ msgstr "Kirjoita"
+
+#~ msgid "Add to list"
+#~ msgstr "Lisää listalle"
+
+#~ msgid "Premade product-list"
+#~ msgstr "Valmiiden tuotteiden lista"
+
+#~ msgid "Week"
+#~ msgstr "Viikko"
+
+#~ msgid "Month"
+#~ msgstr "Kuukausi"
+
+#~ msgid "Year"
+#~ msgstr "Vuosi"

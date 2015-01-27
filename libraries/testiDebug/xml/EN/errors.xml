@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<errors>
+	<error>
+		<label>Undefined index:</label>
+		<translation>An index has been used without being defined</translation>
+		<suggestion>Check the max and min limits of your array</suggestion>
+	</error>
+	<error>
+		<label>Supplied argument is not a valid resource</label>
+		<translation>The supplied argument is not a valid resource in this context</translation>
+		<suggestion>Check that the argument IS a resource in this context (for example, if you used : mysql_query (), check that this function returned a valid resource, and not a boolean false</suggestion>
+	</error>
+	<error>
+		<label>Undefined offset:</label>
+		<translation>The offest used is not defined</translation>
+		<suggestion>Check that this offset is not beyond its element's limits (for example if $sString = 'hello', echo $sString[8] eis false : 8 is beyond the limits of the 'hello' string (5 characters)</suggestion>
+	</error>
+	<error>
+		<label>Undefined variable:</label>
+		<translation>The variable has been used without being defined</translation>
+		<suggestion>Define the variable before useing it, or check if it exists with : if (isset ($variable))</suggestion>
+	</error>
+	<error>
+		<label>Cannot send session cache limiter - headers already sent</label>
+		<translation>Headers have already been sent to the browser, so you cannot add more now</translation>
+		<suggestion>Functions sending headers (header(), session_start()...) cannot be used after any HTML output, unless using ob_start () (see the PHP documentation)</suggestion>
+	</error>
+	<error>
+		<label>failed to open stream</label>
+		<translation>Failed to open the stream</translation>
+		<suggestion>The stream could not be opened : check that this stream DOES exist, or that you have permissions to do so (stream : files, etc...)</suggestion>
+	</error>
+	<error>
+		<label>Call to a member function on a non-object</label>
+		<translation>The script tried to call a method on an element which is not an object</translation>
+		<suggestion>Check that you indeed work on an object. Here : $oObj -> method (); this error means that $oObj is not an object</suggestion>
+	</error>
+	<error>
+		<label>Invalid argument supplied for foreach()</label>
+		<translation>The argument supplied for foreach () is not a valid argument for this function</translation>
+		<suggestion>In foreach ($aArg as $clef => $valeur), this error means that $aArg is not an array, nor an object, nor any of type that can be used with foreach ()</suggestion>
+	</error>
+	<error>
+		<label>Use of undefined constant - assumed</label>
+		<translation>The script used a constant that has not been defined</translation>
+		<suggestion>The constant has not been defined (with define ()), or you tried to used a variable without a $ sign: echo var;, or an associative index in an array which is not delimited with quotes or double quotes: echo $aTab[nom]</suggestion>
+	</error>
+	<error>
+		<label>Division by zero</label>
+		<translation>The script tried to make a division by zero</translation>
+		<suggestion>Check variables used in your script for this operation.</suggestion>
+	</error>
+	<error>
+		<label>MySQL: A link to the server could not be established</label>
+		<translation>The script could not establish a connection to the MySQL server</translation>
+		<suggestion>Check the parameters used in the connection</suggestion>
+	</error>
+	<error>
+		<label>unexpected error</label>
+		<translation>The script returned an unknown error</translation>
+		<suggestion>Well...you are all alone on this one !</suggestion>
+	</error>
+	<error>
+		<label>Failed opening required (include_path=)</label>
+		<translation>Failed to include the file</translation>
+		<suggestion>The path is probably wrong, check it out</suggestion>
+	</error>
+	<error>
+		<label>Out of range year.</label>
+		<translation>The script is out of range year</translation>
+		<suggestion>Check the date, it might be wrong</suggestion>
+	</error>
+	<error>
+		<label>Unable to save result set</label>
+		<translation>Unable to save the result</translation>
+		<suggestion></suggestion>
+	</error>
+	<error>
+		<label>Illegal directory offset</label>
+		<translation>The script tried to access an illegal directory offset</translation>
+		<suggestion>Check this offset, it should not exist and beyond this directory's limits</suggestion>
+	</error>
+	<error>
+		<label>Failed opening for inclusion (include_path=)</label>
+		<translation>Failed to include the file</translation>
+		<suggestion>The path is probably wrong, check it out</suggestion>
+	</error>
+	<error>
+		<label>open(, O_RDWR) failed: ()</label>
+		<translation>Failed to open</translation>
+		<suggestion></suggestion>
+	</error>
+	<error>
+		<label>invalid calendar ID</label>
+		<translation>Invalid Calendar ID</translation>
+		<suggestion>You gave a wrong argument, check this ID</suggestion>
+	</error>
+	<error>
+		<label>Unable to call () - function does not exist</label>
+		<translation>The function the script tried to call does not exist</translation>
+		<suggestion>This function does not exist. Check that the script can access the function's definition, or if it is an internal function that the extension it belongs too has been loaded in your PHP</suggestion>
+	</error>
+	<error>
+		<label>length may not be negative</label>
+		<translation>A length cannot be negative</translation>
+		<suggestion>Check your calculation to get this length</suggestion>
+	</error>
+	<error>
+		<label>Bad field offset specified</label>
+		<translation>Bad field offset</translation>
+		<suggestion>Ths script tried to access a field offset that does not exist, check this offset</suggestion>
+	</error>
+	<error>
+		<label>%s(): invalid calendar ID</label>
+		<translation>Invalid Calendar ID</translation>
+		<suggestion>You gave a wrong argument, check this ID</suggestion>
+	</error>
+	<error>
+		<label>Square root of negative number</label>
+		<translation>Ths script tried to calculate the root square value of a negative number</translation>
+		<suggestion>You cannot do that, check the increminated number</suggestion>
+	</error>
+	<error>
+		<label>(): invalid calendar ID</label>
+		<translation>ID Calendrier invalide</translation>
+		<suggestion>You gave a wrong argument, check this ID</suggestion>
+	</error>
+	<error>
+		<label>Sybase: Bad row offset</label>
+		<translation>Bad row offset</translation>
+		<suggestion>Ths script tried to access a row offset that does not exist, check this offset</suggestion>
+	</error>
+	<error>
+		<label>could not read valid bz2 data from stream</label>
+		<translation>The script could not read the BZ2 archive from this stream</translation>
+		<suggestion>The archive might be corrupted, or it is just not a BZ2 valid file format</suggestion>
+	</error>
+	<error>
+		<label>failed to open stream: No such file or directory</label>
+		<translation>The script could not open the stream : the file or the directory does not exist</translation>
+		<suggestion>Check the validity of the path used</suggestion>
+	</error>	
+	<error>
+		<label>Wrong parameter count for</label>
+		<translation>The cript did not give the expected number of parameters for this function</translation>
+		<suggestion>Check the parameters of this function</suggestion>
+	</error>
+</errors>

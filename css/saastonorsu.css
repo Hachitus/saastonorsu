@@ -1,0 +1,607 @@
+html, body {
+    color:#000000;
+    font:normal 100% Arial, Helvetica, Verdana;
+    margin: auto;
+    margin-bottom:0px;;
+    width:100%;
+    height:100%;
+    text-align:center; /* for old like IE5-versions, that work better by centering the body, with this setting */
+    background: rgb(130,185,224); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(130,185,224,1) 0%, rgba(179,206,226,1) 42%, rgba(179,206,226,1) 63%, rgba(130,185,224,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(130,185,224,1)), color-stop(42%,rgba(179,206,226,1)), color-stop(63%,rgba(179,206,226,1)), color-stop(100%,rgba(130,185,224,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(130,185,224,1) 0%,rgba(179,206,226,1) 42%,rgba(179,206,226,1) 63%,rgba(130,185,224,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(130,185,224,1) 0%,rgba(179,206,226,1) 42%,rgba(179,206,226,1) 63%,rgba(130,185,224,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(130,185,224,1) 0%,rgba(179,206,226,1) 42%,rgba(179,206,226,1) 63%,rgba(130,185,224,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(130,185,224,1) 0%,rgba(179,206,226,1) 42%,rgba(179,206,226,1) 63%,rgba(130,185,224,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82b9e0', endColorstr='#82b9e0',GradientType=1 ); /* IE6-9 */
+}
+
+table {
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+}
+table td {
+    border-radius: 4px;
+}
+/* ========= DIVs ========== */
+div {
+    position: relative;
+    overflow:hidden;
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+    overflow:visible;
+    border-radius: 4px;
+}
+
+div.websiteContainer {
+    width: 700px;
+    margin: auto;
+}
+
+/* ----- .TOP and descendants ----- */
+div.top {
+    position:relative;
+    width: 700px;
+    vertical-align: top;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top: 0px;
+    height:130px;
+}
+    div#header{
+        position: absolute;
+        overflow:visible;
+        border:0;
+        margin-top:3px;
+    }
+        img#elefant{
+            border:0px;
+            left:-32px;
+            top:0px;
+            position:absolute;
+            overflow:visible;
+            top:3px;
+            z-index: 10;
+        }
+    div#topmenu {
+        border-top: 0;
+        float:left;
+        clear:left;
+        left: 160px;
+        bottom: -10px;
+        vertical-align: bottom;
+    }
+        div#topmenu a {
+            text-decoration:none;
+        }
+        div#topmenu a:active {
+            font-weight:bold;
+        }
+
+    div#headerLoggedin {
+        right:1px;
+        width: 700px;
+        text-align: right;
+        overflow:hidden;
+    }
+
+    table#topmenuTable td:nth-child(odd){
+        margin:0px;
+        padding:0px;
+        width:120px;
+        font-size: 22px;
+        border: solid 1px #000000;
+        cursor: pointer;
+        text-align: center;
+        background: #D4E2FF;
+        border-radius: 3px;
+        -webkit-box-shadow: 3px 3px 2px #AAA;
+        -moz-box-shadow: 3px 3px 2px #AAA;
+        box-shadow: 3px 3px 2px #AAA;
+    }
+        table#topmenuTable td:nth-child(even) {
+            width:7px;
+        }
+    div.menuContainer {
+        position:relative;
+    }
+
+/* ----- .top end  ----- */
+
+/* ---- Content ---- */
+div.content {
+    top: -1px;
+    vertical-align: top;
+    border:0px;;
+    padding:0;
+    height:100%;
+    margin: 0 0 0 0;
+}
+div.contentInnerBlock {
+    padding:12px;
+    height: auto;
+    text-align:left;
+}
+div.content#settings {
+    text-align: left;
+}
+div#footer {
+    background-color:#D4E2FF;
+    border:0px;
+    border-radius: 4px;
+}
+
+/* DIVs inside Content */
+div.topicBlocks {
+    margin-bottom: 20px;
+    display:inline;
+    padding:0px;
+    float:left;
+    width: 150px;
+}
+div.topicBlocksHeaders {
+    margin-bottom: 20px;
+    margin-top: 58px;
+    display:inline;
+    padding:0px;
+    float:left;
+    width: 70px;
+    overflow:visible;
+}
+div.topicBlocksFull {
+    width: 100%;
+}
+
+span.rightSide {
+    position:absolute;
+    left:140px;
+}
+div.eventBlocks p {
+    padding:2px;
+    margin:0px;
+}
+.loginContainer {
+    background-color:#D4E2FF;
+    width:380px;
+    margin:auto;
+    padding:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+    text-align:left;
+}
+.loginContainer table {
+    width:100%;
+}
+.loginContainer td {
+    min-width: 100px;
+}
+.loginContainer table h2 {
+    text-align:center;
+    width:100%;
+}
+.loginContainer input {
+    width:200px;
+    clear:left;
+    float:left;
+}
+.loginContainer input[type=submit] {
+    margin-top:15px;
+    width:100px;
+}
+.loginContainer span {
+    float:left;
+    clear:left;
+}
+.extraOptionTD {
+    width:130px;
+    height:80px;
+    padding:8px;
+    padding-top:28px;
+    background-color:#E0E0E0;
+}
+
+div.dates {
+    padding: 0px;
+    margin:0px;
+}
+
+div.login {
+    text-align: right;
+    width: 400px;
+    vertical-align: middle;
+    margin: auto;
+}
+div.login input {
+    left: 80px;
+}
+
+.columnBase {
+    width:100%;
+    text-align: left;
+    overflow: visible;
+    clear:left;
+}
+.BlockUIcolumnBase {
+    width:100%;
+    text-align: left;
+}
+.columnMain {
+    margin-bottom:16px;
+    margin-left:12px;
+}
+td.columnFirstChild {
+    width: 200px;
+    left:0px;
+    overflow:visible;
+    padding-right:6px;
+}
+td.columnSecondChild {
+    max-width: 49%;
+    min-height: 50px;
+    overflow:visible;
+}
+div.columnSecondChild {
+    max-width: 49%;
+    min-height: 30px;
+    float:left;
+    clear: none;
+    overflow:visible;
+}
+div.columnColorHeader {
+    font-weight: bold;
+    padding-top:4px;
+    padding-bottom:12px;
+}
+
+div.hidden {
+    display: none;	
+}
+div#messages {
+    display: none;	
+}
+div#productsDiv {
+    display: none;
+}
+div.compulsory {
+    font-weight: bold;
+}
+.leftTDBUttons {
+    width:30%;
+}
+.rightTDBUttons {
+    width:100%;
+    text-align: right;
+}
+
+/* charts */
+table.charts {
+    width:100%;
+    text-align: center;
+}
+
+/* --------Texts--------- */
+
+a:link, :visited, :active, :hover {
+    text-decoration:none;
+}
+
+/* Pagination classes: */
+a.prev, a.next {
+    
+}
+a.more {
+    
+}
+a.active {
+    color: #880000;
+    font-weight: bold;
+}
+
+label {
+    font-weight:bold;
+    vertical-align: top;
+}
+#centered {
+    text-align: center;
+}
+h1 {
+    word-spacing: 4em;
+    font: 16px arial, helvetica, Verdana;
+    font-weight: bold;
+}
+h2 {
+    clear: both;
+    padding:5px;
+    line-height: 0px;
+    font: 20px arial, helvetica, Verdana;
+}
+h3, h2, h1, :link, :visited, :active {
+    color:#000000;
+}
+h4 {
+    text-align:left;
+}
+
+.mainCat {
+    color:#660000;
+}
+.extraCat {
+    color:#555500;
+}
+a.details {
+    display:block;
+    color:#880000;
+}
+a.selectedDetails {
+    display:block;
+    color:#DD4444;
+    padding-bottom:6px;
+}
+
+/* -------- Other styling --------- */
+
+input.eventList {
+    width:100px;
+}
+.underSection1 {
+    left:80px;
+    position:absolute;
+    font-weight:normal;
+}
+.underSection2 {
+    left:200px;
+    position:absolute;
+    font-weight:normal;
+}
+.dateSpecial {
+    left:158px;
+    position:relative;
+    font-weight:normal;
+}
+
+span.link {
+    cursor: pointer
+}
+div.extraOptionsDiv {
+    width: 100%;
+    text-align: right;
+    clear:left;
+    font-size: 80%;
+    font-weight: normal;
+}
+div.extraOptionsDiv span {
+    cursor: pointer
+}
+div#addingProduct {
+    width:500px;
+    height:560px;
+}
+div#addCat {
+    width:500px;
+    height:100%;
+}
+div#addPlace {
+    width:500px;
+    height:100%;
+}
+
+/* Input styling: */
+input, textarea, select {
+    background-color: #D4E2FF;
+    border-radius: 3px;
+    border: 1px solid #90B0D5;
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    padding: 2px;
+    margin: 0 0 10px 0;
+}
+input#place {
+    width:120px;
+}
+textarea {
+    width:228px;
+    height: 70px;
+}
+textarea:hover, input[type="text"]:hover, input[type="file"]:hover, input[type="password"]:hover, select:hover {
+    border: 1px solid #0000FF;
+}
+textarea:focus, input[type="text"]:focus, input[type="file"]:hover, input[type="password"]:focus, select:focus {
+    background-color: #FFFFFF;
+    border: 1px solid #0000FF;
+}
+
+/* ---- BUTTONS ---- */
+button, input[type=submit], input[type=reset] {
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+    padding: 2px;
+    margin: 0 0 10px 0;
+    color: #dFF1f9;
+    border-radius: 4px;
+}
+button:hover, input[type=submit]:hover, input[type=reset]:hover {
+    color:#BBF;
+}
+
+.blueBtn {
+    border: solid 1px #0075A2;
+    /* chrome 2+, safari 4+ */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+    /* chrome 10+, safari 5.1+ */
+    background-image: -webkit-linear-gradient(top left, #00adee, #0078a5);
+    /* firefox */
+    background-image: -moz-linear-gradient(top,  #00adee,  #0078a5);
+    /* ie 6+ */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+    /* ie8 + */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5')";
+    /* ie10 */
+    background-image: -ms-linear-gradient(#00adee, #0078a5);
+    /* opera 11.1 */
+    background-image: -o-linear-gradient(#00adee, #0078a5);
+    /* The "standard" */
+    background-image: linear-gradient(#00adee, #0078a5);
+}
+.blueBtn:hover {
+    color:#BBF;
+}
+.redBtn {
+    border: solid 1px #b73948;
+    /* chrome 2+, safari 4+ */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f16c7c), to(#bf404f));
+    /* chrome 10+, safari 5.1+ */
+    background-image: -webkit-linear-gradient(top left, #f16c7c, #bf404f);
+    /* firefox */
+    background-image: -moz-linear-gradient(top,  #f16c7c,  #bf404f);
+    /* ie 6+ */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16c7c', endColorstr='#bf404f');
+    /* ie8 + */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16c7c', endColorstr='#bf404f')";
+    /* ie10 */
+    background-image: -ms-linear-gradient(#f16c7c, #bf404f);
+    /* opera 11.1 */
+    background-image: -o-linear-gradient(#f16c7c, #bf404f);
+    /* The "standard" */
+    background-image: linear-gradient(#f16c7c, #bf404f);
+}
+.redBtn:hover {
+    color:#BBF;
+}
+
+.greyBtn {
+    background-color: #6e6e6e;
+
+    border: solid 1px #666;
+    /* chrome 2+, safari 4+ */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
+    /* chrome 10+, safari 5.1+ */
+    background-image: -webkit-linear-gradient(top left, #888, #575757);
+    /* firefox */
+    background-image: -moz-linear-gradient(top,  #888,  #575757);
+    /* ie 6+ */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888', endColorstr='#575757');
+    /* ie8 + */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#888', endColorstr='#575757')";
+    /* ie10 */
+    background-image: -ms-linear-gradient(#888, #575757);
+    /* opera 11.1 */
+    background-image: -o-linear-gradient(#888, #575757);
+    /* The "standard" */
+    background-image: linear-gradient(#888, #575757);
+}
+div.greyBtnDiv {
+    margin:25px;
+    left:0;
+}
+
+/* ------- END buttons ------- */
+
+.blockUILayout {
+    border: 0px;
+    box-shadow: 6px 6px 14px #D4E2F0;
+    -webkit-box-shadow: 6px 6px 14px #D4E2F0;
+    -moz-box-shadow: 6px 6px 14px #D4E2F0;
+    width: 500px;
+    height: 620px;
+    background-color: #000000;
+    margin:auto;
+    overflow:visible;
+}
+
+img.modify {
+    /* Modify-icon in Creative Commons Attribution-licensing by: http://momentumdesignlab.com/ */
+    width:16px;
+    height:16px;
+    position: relative;
+    top:3px;
+    margin-left:4px;
+    vertical-align: top;
+}
+
+.hidden {
+    display:none;
+}
+
+div.baseOverlayDiv {
+    cursor: default;
+    position:relative;
+    line-height: 24px;
+    text-decoration: none;
+    border: 1px solid #999;
+    margin:12px 22px 16px 22px;
+    padding:8px;
+    background-color: #F6FAFF;
+    overflow:visible;
+}
+
+table.receiptListing:nth-child(odd){
+    background-color: #E4EFFF;
+}
+
+div.growlUI { background: url(check48.png) no-repeat 10px 10px }
+div.growlUI h1, div.growlUI h2 {
+    color: white; padding: 5px 5px 5px 75px; text-align: left
+}
+
+.generalBorderStyle {
+    border:1px solid #90B0D5;
+    border-radius: 4px;
+}
+
+.tabs {
+    display: block;
+    float: none;
+    overflow: hidden;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    border-bottom:1px dashed black;
+    border-radius: 0px;
+}
+.tabs table {
+    margin:auto;
+}
+.tabs td {
+    background-color: #E4F0FF;
+    margin-right: 2px;
+    padding: 3px;
+    border:1px solid #6e6e6e;
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+tr#subCatTR td.columnFirstChild {
+    padding-left:6px;
+    padding-right:0px;
+}
+tr#subCatTR td.columnSecondChild {
+    padding-left:26px;
+}
+
+/*
+ These are for changing the jQuery tabs default layouts. We do the change here 
+ instead of changing the jquery css, to make things clear.
+*/
+.ui-tabs .ui-tabs-nav li a {
+    padding: 0.5em 1em;
+    font-size:15px;
+    width:100px;
+}
+.ui-tabs .ui-tabs-nav {
+    margin: 0px;
+    padding: 0.1em 0.2em 0px;
+}
+
+img.dollarImg {
+    position:absolute;
+    float:right;
+    z-index:20;
+    top:-23px;
+    right:-15px;
+}

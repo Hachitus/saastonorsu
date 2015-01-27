@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<types>
+	<type>
+		<level>E_ERROR</level>
+		<translation>Erreur</translation>
+	</type>
+	<type>
+		<level>E_WARNING</level>
+		<translation>Alerte</translation>
+	</type>
+	<type>
+		<level>E_PARSE</level>  
+		<translation>Erreur d'analyse</translation>
+	</type>
+	<type>
+		<level>E_NOTICE</level> 
+		<translation>Remarque</translation>
+	</type>
+	<type>
+		<level>E_CORE_ERROR</level>
+		<translation>Erreur Core</translation>
+	</type>
+	<type>
+		<level>E_CORE_WARNING</level>
+		<translation>Alerte Core</translation>
+	</type>
+	<type>
+		<level>E_COMPILE_ERROR</level> 
+		<translation>Erreur durant la compilation</translation>
+	</type>
+	<type>
+		<level>E_COMPILE_WARNING</level>
+		<translation>Alerte durant la compilation</translation>
+	</type>
+	<type>
+		<level>E_USER_ERROR</level>
+		<translation>Erreur spécifique</translation>
+	</type>
+	<type>
+		<level>E_USER_WARNING</level> 
+		<translation>Alerte spécifique</translation>
+	</type>
+	<type>
+		<level>E_USER_NOTICE</level>
+		<translation>Remarque spécifique</translation>
+	</type>
+	<type>
+		<level>E_STRICT</level>
+		<translation>Remarque Runtime</translation>
+	</type>
+</types>
